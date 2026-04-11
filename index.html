@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simen Eldevik — Physics, Uncertainty & Decision Science</title>
+  <meta name="description" content="Physicist, data scientist, and leader combining physics, probabilistic machine learning, and human-centred practices to make high-consequence decisions safer.
+" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a class="nav__logo" href="#top">SE</a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="#philosophy">Philosophy</a></li>
+      <li><a href="#buddy-check">Buddy Check</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="top">
+    <div class="container">
+      <p class="hero__eyebrow">Physicist · Data Scientist · Strategic Guide</p>
+
+      <!-- Badge line: me: / octocat / Euler — between eyebrow and title -->
+      <div class="ha-badge" id="haBadge">
+        <span class="ha-badge__me" id="haMe">me:</span>
+        <span class="ha-badge__octo" id="haOcto" aria-label="GitHub">
+          <svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38
+              0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13
+              -.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66
+              .07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15
+              -.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0
+              1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56
+              .82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07
+              -.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+          </svg>
+        </span>
+        <span class="ha-badge__euler" id="haEuler">e<sup>iπ</sup>&thinsp;+&thinsp;1&thinsp;=&thinsp;0</span>
+      </div>
+
+      <!-- Animated title: simen eldevik → simeld → simple → simen eldevik (loop) -->
+      <h1 class="hero__title" id="heroAnim" aria-label="Simen Eldevik">
+        <!-- "simen" -->
+        <span class="ha-letter ha-first" data-keep>s</span><span
+              class="ha-letter ha-first" data-keep>i</span><span
+              class="ha-letter ha-first" data-keep>m</span><span
+              class="ha-letter ha-first ha-fade">e</span><span
+              class="ha-letter ha-first ha-fade">n</span><!--
+        --><span class="ha-space">&nbsp;</span><!--
+        --><!-- "eldevik" -->
+        <span class="ha-letter ha-second ha-eld" data-eld>e</span><span
+              class="ha-letter ha-second ha-eld" data-eld>l</span><span
+              class="ha-letter ha-second ha-eld" data-eld>d</span><span
+              class="ha-letter ha-second ha-fade">e</span><span
+              class="ha-letter ha-second ha-fade">v</span><span
+              class="ha-letter ha-second ha-fade">i</span><span
+              class="ha-letter ha-second ha-fade">k</span>
+      </h1>
+
+      <p class="hero__subtitle">Navigating uncertainty and guiding change by combining physics, statistics, and responsible decision-making to solve real-world problems — together, safely.
+</p>
+      <div class="hero__cta">
+        <a href="#philosophy" class="btn btn--primary">Philosophy</a>
+        <a href="#experience" class="btn btn--outline">Experience &amp; CV</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Philosophy -->
+  <section class="section" id="philosophy">
+    <div class="container">
+      <h2 class="section__title"><span class="label">Core Belief</span>Why Physics, Statistics and Uncertainty Matter</h2>
+      <div class="grid grid--2">
+        <div class="prose"><p>The world does not give us certainty — it gives us signals, noise, and
+incomplete information. My career has been built on the conviction that:
+<em>the honest quantification of uncertainty is the foundation of every
+trustworthy decision</em>.</p>
+
+<p>Physics provides the mechanistic language. Statistics provides the framework for reasoning under uncertainty. Probabilistic machine learning and Bayesian decision-making bridge the two, letting data and domain knowledge speak together rather than compete</p>
+
+<p>When the consequences of getting it wrong are measured in human lives,
+environmental damage, or billions of dollars, there is no room for
+overconfidence. There is only room for rigour, transparency, and the
+courage to say “we don’t know — and this is how uncertain we are.”</p>
+</div>
+        <div class="card-grid card-grid--2">
+          
+          <div class="card">
+            <span class="card__icon"><svg height="16" aria-label="Physics-Informed" class="octicon octicon-pulse" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M6 2c.306 0 .582.187.696.471L10 10.731l1.304-3.26A.751.751 0 0 1 12 7h3.25a.75.75 0 0 1 0 1.5h-2.742l-1.812 4.528a.751.751 0 0 1-1.392 0L6 4.77 4.696 8.03A.75.75 0 0 1 4 8.5H.75a.75.75 0 0 1 0-1.5h2.742l1.812-4.529A.751.751 0 0 1 6 2Z"></path></svg></span>
+            <h3>Physics-Informed</h3>
+            <p>Domain knowledge encodes the governing laws, making models that extrapolate reliably.</p>
+          </div>
+          
+          <div class="card">
+            <span class="card__icon"><svg height="16" aria-label="Probabilistic Reasoning" class="octicon octicon-question" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.756 2.756 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.103-.067.207-.132.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"></path></svg></span>
+            <h3>Probabilistic Reasoning</h3>
+            <p>Every prediction carries uncertainty. Acknowledging what we don't know is the honest starting point.</p>
+          </div>
+          
+          <div class="card">
+            <span class="card__icon"><svg height="16" aria-label="Iterative Learning" class="octicon octicon-sync" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M1.705 8.005a.75.75 0 0 1 .834.656 5.5 5.5 0 0 0 9.592 2.97l-1.204-1.204a.25.25 0 0 1 .177-.427h3.646a.25.25 0 0 1 .25.25v3.646a.25.25 0 0 1-.427.177l-1.38-1.38A7.002 7.002 0 0 1 1.05 8.84a.75.75 0 0 1 .656-.834ZM8 2.5a5.487 5.487 0 0 0-4.131 1.869l1.204 1.204A.25.25 0 0 1 4.896 6H1.25A.25.25 0 0 1 1 5.75V2.104a.25.25 0 0 1 .427-.177l1.38 1.38A7.002 7.002 0 0 1 14.95 7.16a.75.75 0 0 1-1.49.178A5.5 5.5 0 0 0 8 2.5Z"></path></svg></span>
+            <h3>Iterative Learning</h3>
+            <p>Hypothesise, measure, update beliefs, repeat. DevOps is applied scientific method.</p>
+          </div>
+          
+          <div class="card">
+            <span class="card__icon"><svg height="16" aria-label="Team Culture" class="octicon octicon-people" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M2 5.5a3.5 3.5 0 1 1 5.898 2.549 5.508 5.508 0 0 1 3.034 4.084.75.75 0 1 1-1.482.235 4 4 0 0 0-7.9 0 .75.75 0 0 1-1.482-.236A5.507 5.507 0 0 1 3.102 8.05 3.493 3.493 0 0 1 2 5.5ZM11 4a3.001 3.001 0 0 1 2.22 5.018 5.01 5.01 0 0 1 2.56 3.012.749.749 0 0 1-.885.954.752.752 0 0 1-.549-.514 3.507 3.507 0 0 0-2.522-2.372.75.75 0 0 1-.574-.73v-.352a.75.75 0 0 1 .416-.672A1.5 1.5 0 0 0 11 5.5.75.75 0 0 1 11 4Zm-5.5-.5a2 2 0 1 0-.001 3.999A2 2 0 0 0 5.5 3.5Z"></path></svg></span>
+            <h3>Team Culture</h3>
+            <p>The best work happens where people feel safe to challenge each other and take shared responsibility.</p>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DevOps -->
+  <section class="section" id="devops">
+    <div class="container">
+      <h2 class="section__title"><span class="label">Practice</span>DevOps is Applied Scientific Method</h2>
+      <div class="grid grid--2">
+        <div class="prose"><p>Science is the gold standard for building lasting knowledge: observe
+carefully, state assumptions, test them, and let new evidence change your
+mind. In Bayesian terms, learning means updating beliefs honestly rather
+than defending yesterday’s certainty.</p>
+
+<p>DevOps, MLOps, and disciplined engineering practices carry that standard
+into software, AI, and machine learning. When models influence important
+decisions, validation, monitoring, traceability, and controlled change are
+not bureaucracy — they are how teams preserve knowledge, improve judgment,
+and adapt responsibly.</p>
+
+<p>Good systems do not just scale execution; they scale learning.</p>
+</div>
+        <div class="numbered-list">
+          
+          <div class="numbered-list__item">
+            <span class="numbered-list__num">01</span>
+            <div><h4>Version Everything</h4><p>Code, data, models, prompts, configurations, and decision rules — if it changes, it lives in version control.</p></div>
+          </div>
+          
+          <div class="numbered-list__item">
+            <span class="numbered-list__num">02</span>
+            <div><h4>Automate Validation</h4><p>Automated validation in CI/CD pipelines is the peer review of any code-based process, including software, AI, and machine learning, and should be built into every path to deployment.</p></div>
+          </div>
+          
+          <div class="numbered-list__item">
+            <span class="numbered-list__num">03</span>
+            <div><h4>Make Failure Visible</h4><p>Monitoring and model drift detection surface problems before decisions are corrupted.</p></div>
+          </div>
+          
+          <div class="numbered-list__item">
+            <span class="numbered-list__num">04</span>
+            <div><h4>Traceability Over Guesswork</h4><p>Probabilistic systems will not always replay identical outcomes, but the workflow, assumptions, data lineage, and decision process should always be auditable and reproducible in spirit.</p></div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buddy Check -->
+  <section class="section section--alt" id="buddy-check">
+    <div class="container">
+      <h2 class="section__title"><span class="label">Human Factors</span>The Buddy Check: From the Mountains and the Deep</h2>
+
+      <div class="grid grid--2 buddy-check__grid">
+        <div class="prose">
+          <blockquote class="quote">"No heroes. Check each other, trust each other, go home safe — together."
+</blockquote>
+          <p>In climbing and scuba diving, the buddy check is non-negotiable.
+Before every climb, before every descent, your partner checks your gear
+and you check theirs. It is a ritual built on one truth: <em>humans make
+mistakes, and two sets of eyes are exponentially more reliable than one</em>.</p>
+
+<p>This practice has profoundly shaped how I approach engineering, data
+science, and leadership:</p>
+
+        </div>
+        <ul class="check-list buddy-check__points">
+          
+          <li><strong>Peer review is not a hurdle — it is a lifeline.</strong> The goal is to catch errors before they compound into consequences.</li>
+          
+          <li><strong>Shared responsibility removes single points of failure.</strong> When ownership is distributed, knowledge is distributed.</li>
+          
+          <li><strong>Psychological safety enables honest checks.</strong> A buddy check only works if both people feel safe to speak up.</li>
+          
+          <li><strong>The goal is team success, not individual heroics.</strong> Celebrate collective wins. No room for lone wolves.</li>
+          
+        </ul>
+      </div>
+
+      <div class="card-grid card-grid--2 card-grid--section-gap">
+        
+        <div class="card">
+          <span class="card__icon"><svg height="16" aria-label="Challenge Networks" class="octicon octicon-git-branch" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M9.5 3.25a2.25 2.25 0 1 1 3 2.122V6A2.5 2.5 0 0 1 10 8.5H6a1 1 0 0 0-1 1v1.128a2.251 2.251 0 1 1-1.5 0V5.372a2.25 2.25 0 1 1 1.5 0v1.836A2.493 2.493 0 0 1 6 7h4a1 1 0 0 0 1-1v-.628A2.25 2.25 0 0 1 9.5 3.25Zm-6 0a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Zm8.25-.75a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5ZM4.25 12a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Z"></path></svg></span>
+          <h3>Challenge Networks</h3>
+          <p>Deliberately cultivate colleagues whose job is constructive disagreement. Surrounding yourself only with agreement is the fastest route to confident mistakes.</p>
+
+        </div>
+        
+        <div class="card">
+          <span class="card__icon"><svg height="16" aria-label="Intention-Based Leadership" class="octicon octicon-north-star" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path d="M8.5.75a.75.75 0 0 0-1.5 0v5.19L4.391 3.33a.75.75 0 1 0-1.06 1.061L5.939 7H.75a.75.75 0 0 0 0 1.5h5.19l-2.61 2.609a.75.75 0 1 0 1.061 1.06L7 9.561v5.189a.75.75 0 0 0 1.5 0V9.56l2.609 2.61a.75.75 0 1 0 1.06-1.061L9.561 8.5h5.189a.75.75 0 0 0 0-1.5H9.56l2.61-2.609a.75.75 0 0 0-1.061-1.06L8.5 5.939V.75Z"></path></svg></span>
+          <h3>Intention-Based Leadership</h3>
+          <p>Give teams the context — the <em>why</em> and the <em>intent</em> — then trust them to determine the <em>how</em>. Micromanagement creates compliance; intent creates ownership.</p>
+
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section__title"><span class="label">Professional Experience</span>Career Overview</h2>
+      
+      <div class="cv-item">
+        <div class="cv-item__meta">
+          <span class="cv-item__period">2023 — Present</span>
+          <span class="cv-item__org">Aker BP</span>
+        </div>
+        <div class="cv-item__body">
+          <h3>Head of Data Science & AI (2024 — Present)</h3>
+          <p>Lead the Data Science and AI team responsible for building Aker BP's AI foundation and MLOps infrastructure. Oversee the safe and secure deployment of AI and ML models in high-consequence E&P decisions across exploration, drilling, production optimisation, and predictive maintenance.
+</p>
+          <ul><li>Define technical strategy for probabilistic AI in safety-critical applications</li><li>Establish the MLOps platform and governance framework for model lifecycle management</li><li>Lead cross-functional teams combining physicists, engineers, and data scientists</li><li>Partner with Microsoft, Cognite, and leading academic institutions</li><li>Champion responsible AI practices and uncertainty-aware model deployment</li></ul>
+        </div>
+      </div>
+      
+      <div class="cv-item">
+        <div class="cv-item__meta">
+          <span class="cv-item__period">2014 — 2023</span>
+          <span class="cv-item__org">DNV</span>
+        </div>
+        <div class="cv-item__body">
+          <h3>Principal Research Scientist & Team lead — Probabilistic Machine Learning</h3>
+          <p>Research on combining physics-based models and probabilistic machine learning (Gaussian processes, Bayesian inference) for structural health monitoring and reliability assessment of offshore assets.
+</p>
+          <ul><li>Physics-informed Gaussian process models for structural integrity assessment</li><li>Uncertainty quantification for safety-critical engineering systems</li><li>Won the 2020 NASA Langley UQ Challenge on Optimization Under Uncertainty</li><li>Published at ESREL, OMAE, and related international conferences</li></ul>
+        </div>
+      </div>
+      
+      <div class="cv-item">
+        <div class="cv-item__meta">
+          <span class="cv-item__period">2010 — 2014</span>
+          <span class="cv-item__org">DNV (Industry PhD)</span>
+        </div>
+        <div class="cv-item__body">
+          <h3>Doctoral Researcher — Acoustic Stress Measurement</h3>
+          <p>Industry PhD with DNV, combining experimental acoustics and theoretical modelling of elastic wave propagation in pre-stressed steel. Developed methods for non-destructive measurement of in-situ stress states using acoustoelastic effects.
+</p>
+          <ul><li>Experimental and theoretical acoustoelastic analysis in steel</li><li>Inverse problem formulation for stress recovery from wave speed data</li><li>Statistical estimation with measurement uncertainty propagation</li></ul>
+        </div>
+      </div>
+      
+      <div class="cv-item">
+        <div class="cv-item__meta">
+          <span class="cv-item__period">2005 — 2010</span>
+          <span class="cv-item__org">DNV</span>
+        </div>
+        <div class="cv-item__body">
+          <h3>Engineer — Structural Reliability & Pipeline Integrity</h3>
+          <p>Structural integrity and reliability assessment for offshore pipelines. Probabilistic limit-state analysis, corrosion modelling, and risk-based inspection planning.
+</p>
+          <ul><li>Probabilistic structural reliability analysis (FORM/SORM, Monte Carlo)</li><li>Risk-based inspection and maintenance optimisation</li><li>Pipeline corrosion, fatigue, and burst limit-state modelling</li></ul>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section class="section section--alt" id="education">
+    <div class="container">
+      <h2 class="section__title"><span class="label">Education</span>Academic Background</h2>
+
+      <div class="card-grid card-grid--2">
+        
+        <div class="card card--row">
+          <span class="card__degree">PhD</span>
+          <div>
+            <h3>Acoustics & Experimental Mechanics</h3>
+            <p class="text-accent">University of Bergen</p>
+            <p class="text-muted text-sm">2010 – 2014</p>
+            <p>Industry PhD in collaboration with DNV. Experimental and theoretical investigation of acoustoelastic effects in steel — measuring stress states non-destructively through ultrasonic wave velocity analysis. Combined laboratory experiments with Bayesian inverse-problem methods to recover stress from acoustic measurements.
+</p>
+          </div>
+        </div>
+        
+        <div class="card card--row">
+          <span class="card__degree">MSc</span>
+          <div>
+            <h3>Physics</h3>
+            <p class="text-accent">Norwegian University of Science and Technology (NTNU)</p>
+            <p class="text-muted text-sm">2000 – 2005</p>
+            <p>Specialisation in condensed matter physics, wave mechanics, and space dynamics. Foundations in theoretical physics, continuum mechanics, thermodynamics, and applied mathematics.
+</p>
+          </div>
+        </div>
+        
+      </div>
+
+      
+      <h3 class="sub-heading">Selected Publications</h3>
+      <ul class="pub-list">
+        
+        <li>
+          <span class="pub-list__year">2022</span>
+          <span>
+            
+            <a href="/assets/pdfs/2022-ESREL-Safe-reduction-of-conservatism-by-combining-machine-learning-and-physics-based-models.pdf" target="_blank" rel="noopener">Safe reduction of conservatism by combining machine learning and physics-based models</a>
+            <br/><span class="text-muted text-sm">S. Eldevik, C. Ferreira, C. Agrell, S.O. Skrede, E. Katla, M.L. Sandøy, P.J.D. Svendsen · Proceedings of the 32nd European Safety and Reliability Conference (ESREL 2022)</span>
+          </span>
+        </li>
+        
+        <li>
+          <span class="pub-list__year">2022</span>
+          <span>
+            <strong>Winner — NASA Langley UQ Challenge</strong><br/>
+            <a href="/assets/pdfs/2021-NASA-UQ-challenge-on-optimization-under-uncertainty.pdf" target="_blank" rel="noopener">Risk-based functional black-box optimization — Contribution to the NASA Langley UQ Challenge on Optimization Under Uncertainty</a>
+            <br/><span class="text-muted text-sm">C. Agrell, S. Eldevik, O. Gramstad, A. Hafver · Mechanical Systems and Signal Processing, vol. 164, 108266</span>
+          </span>
+        </li>
+        
+        <li>
+          <span class="pub-list__year">2020</span>
+          <span>
+            
+            <a href="/assets/pdfs/2020-OMAE-Extending-offshore-weather-window-by-optimizing-simulations-using-probabilistic-machine-learning.pdf" target="_blank" rel="noopener">Offshore Drilling: Extending the Weather Window for Operations by Optimal Use of Simulations and Probabilistic Machine Learning</a>
+            <br/><span class="text-muted text-sm">S. Eldevik, S. Sætre, E. Katla, A.B. Aardal · ASME 2020 39th International Conference on Ocean, Offshore and Arctic Engineering (OMAE 2020)</span>
+          </span>
+        </li>
+        
+        <li>
+          <span class="pub-list__year">2020</span>
+          <span>
+            
+            <a href="/assets/pdfs/2020-ESREL-Offshore-operations-Reducing-uncertainty-of-critical-weather-scenarios-by-optimal-use-of-simulations-and-probabilistic-machine-learning.pdf" target="_blank" rel="noopener">Offshore Workover Operations: Reducing Uncertainty of Critical Weather Scenarios by Optimal Use of Simulations and Probabilistic Machine Learning</a>
+            <br/><span class="text-muted text-sm">S. Eldevik, S. Sætre · Proceedings of the 30th European Safety and Reliability Conference (ESREL 2020 / PSAM 15)</span>
+          </span>
+        </li>
+        
+        <li>
+          <span class="pub-list__year">2014</span>
+          <span>
+            
+            <a href="/assets/pdfs/2014-Eldevik-Measurement-of-acoustoelastic-effect-in-steel-using-acoustic-resonance.pdf" target="_blank" rel="noopener">Measurement of non-linear acoustoelastic effect in steel using acoustic resonance</a>
+            <br/><span class="text-muted text-sm">S. Eldevik · PhD thesis, University of Bergen</span>
+          </span>
+        </li>
+        
+      </ul>
+      
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container" style="text-align:center">
+      <h2 class="section__title"><span class="label">Get in Touch</span>Let's Talk About Uncertainty</h2>
+      <p class="prose" style="max-width:520px;margin:0 auto 2rem">Whether it is physics-informed ML, responsible AI deployment, organisational resilience, or just a shared love of Uncertainty — I am always happy to connect.
+</p>
+      <div class="contact-links">
+        <a href="https://github.com/simeld" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/simeneldevik" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Simen Eldevik · Physics, Statistics & Uncertainty</p>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
