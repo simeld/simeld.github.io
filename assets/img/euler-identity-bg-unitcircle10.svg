@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-label="Euler identity background with faint full unit circle">
+  <defs>
+    <style>
+      .curve {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 4.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .axis {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1;
+        stroke-linecap: round;
+      }
+      .unit-disk {
+        fill: #000000;
+        stroke: none;
+      }
+    </style>
+  </defs>
+
+  <!-- Zero axes for range [-1.1, 1.1] -->
+  <line class="axis" x1="260" y1="260" x2="660" y2="260" opacity="0.5" />
+  <line class="axis" x1="460" y1="60" x2="460" y2="460" opacity="0.5" />
+
+  <!-- Full unit disk guide: almost transparent but filled -->
+  <circle class="unit-disk" cx="460" cy="260" r="181.818" opacity="0.05" />
+
+  <!-- e^(-i pi t), t in [0,1] -->
+  <path class="curve" d="M 641.818 260 A 181.818 181.818 0 0 0 278.182 260" opacity="1" />
+
+  <!-- second segment on real axis from -1 to 0 -->
+  <path class="curve" d="M 278.182 260 L 460 260" opacity="1" />
+</svg>
