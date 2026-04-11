@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-label="Euler identity background with +/-1 ticks">
+  <defs>
+    <style>
+      .curve {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 4.8;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .axis {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 1;
+        stroke-linecap: round;
+      }
+      .tick {
+        fill: none;
+        stroke: #000000;
+        stroke-width: 2;
+        stroke-linecap: round;
+      }
+      .axis-label {
+        fill: #000000;
+        font-family: Inter, system-ui, -apple-system, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+      }
+    </style>
+  </defs>
+
+  <!-- Zero axes for range [-1.1, 1.1] -->
+  <line class="axis" x1="260" y1="260" x2="660" y2="260" opacity="0.5" />
+  <line class="axis" x1="460" y1="60" x2="460" y2="460" opacity="0.5" />
+
+  <!-- Tick marks at x = -1 and x = +1 -->
+  <line class="tick" x1="278.182" y1="250" x2="278.182" y2="270" opacity="0.28" />
+  <line class="tick" x1="641.818" y1="250" x2="641.818" y2="270" opacity="0.28" />
+  <line class="tick" x1="450" y1="441.818" x2="470" y2="441.818" opacity="0.28" />
+  <line class="tick" x1="450" y1="78.182" x2="470" y2="78.182" opacity="0.28" />
+
+  <!-- Axis labels at -1 and +1 on both axes -->
+  <text class="axis-label" x="278.182" y="292" text-anchor="middle" opacity="0.34">-1</text>
+  <text class="axis-label" x="641.818" y="292" text-anchor="middle" opacity="0.34">1</text>
+  <text class="axis-label" x="486" y="447.5" opacity="0.34">-1</text>
+  <text class="axis-label" x="486" y="84" opacity="0.34">1</text>
+
+  <!-- e^(-i pi t), t in [0,1] -->
+  <path class="curve" d="M 641.818 260 A 181.818 181.818 0 0 0 278.182 260" opacity="1" />
+
+  <!-- second segment on real axis from -1 to 0 -->
+  <path class="curve" d="M 278.182 260 L 460 260" opacity="1" />
+</svg>
