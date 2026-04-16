@@ -1,5 +1,7 @@
 /* Simen Eldevik — dark theme, Inter only */
 
+/* Clean blue alternative for accent testing: #0064ff */
+
 :root {
   color-scheme: dark;
   --bg: #0d0e12;
@@ -9,19 +11,19 @@
   --text: #e8e9ed;
   --muted: #8a8d9a;
   --subtle: #555869;
-  --accent: #5b8cfa;
-  --accent-dim: rgba(91, 140, 250, 0.12);
-  --gold: #f5c842;
-  --gold-dim: rgba(245, 200, 66, 0.1);
-  --blue-dark: #4a7eff;
-  --blue-light: #7ec8ff;
+  --accent: #2f8fff;
+  --accent-dim: rgba(47, 143, 255, 0.14);
+  --gold: #43a3ff;
+  --gold-dim: rgba(67, 163, 255, 0.12);
+  --blue-dark: #1e73e8;
+  --blue-light: #73c6ff;
   --nav-bg: rgba(13, 14, 18, 0.85);
   --nav-bg-scrolled: rgba(13, 14, 18, 0.97);
   --surface-hover-border: rgba(255, 255, 255, 0.12);
-  --timeline-line: rgba(91, 140, 250, 0.25);
-  --gold-border: rgba(245, 200, 66, 0.25);
-  --tag-border: rgba(91, 140, 250, 0.15);
-  --gold-gradient-end: #ffd966;
+  --timeline-line: rgba(47, 143, 255, 0.3);
+  --gold-border: rgba(67, 163, 255, 0.28);
+  --tag-border: rgba(47, 143, 255, 0.2);
+  --gold-gradient-end: #8ed3ff;
   --btn-primary-text: #ffffff;
   --radius: 0.65rem;
   --font: "Inter", system-ui, -apple-system, sans-serif;
@@ -36,19 +38,19 @@
   --text: #182033;
   --muted: #55607a;
   --subtle: #7a8499;
-  --accent: #3b6fe6;
-  --accent-dim: rgba(59, 111, 230, 0.12);
-  --gold: #b18400;
-  --gold-dim: rgba(177, 132, 0, 0.1);
-  --blue-dark: #2454cf;
-  --blue-light: #4f87ee;
+  --accent: #2f7fe0;
+  --accent-dim: rgba(47, 127, 224, 0.14);
+  --gold: #1f67c7;
+  --gold-dim: rgba(31, 103, 199, 0.12);
+  --blue-dark: #1c5bb8;
+  --blue-light: #4fa7ff;
   --nav-bg: rgba(245, 247, 251, 0.88);
   --nav-bg-scrolled: rgba(245, 247, 251, 0.97);
   --surface-hover-border: rgba(22, 30, 48, 0.16);
-  --timeline-line: rgba(59, 111, 230, 0.22);
-  --gold-border: rgba(177, 132, 0, 0.26);
-  --tag-border: rgba(59, 111, 230, 0.18);
-  --gold-gradient-end: #d7a717;
+  --timeline-line: rgba(47, 127, 224, 0.24);
+  --gold-border: rgba(31, 103, 199, 0.28);
+  --tag-border: rgba(47, 127, 224, 0.2);
+  --gold-gradient-end: #6cb9ff;
   --btn-primary-text: #ffffff;
 }
 
@@ -62,19 +64,19 @@
     --text: #182033;
     --muted: #55607a;
     --subtle: #7a8499;
-    --accent: #3b6fe6;
-    --accent-dim: rgba(59, 111, 230, 0.12);
-    --gold: #b18400;
-    --gold-dim: rgba(177, 132, 0, 0.1);
-    --blue-dark: #2454cf;
-    --blue-light: #4f87ee;
+    --accent: #2f7fe0;
+    --accent-dim: rgba(47, 127, 224, 0.14);
+    --gold: #1f67c7;
+    --gold-dim: rgba(31, 103, 199, 0.12);
+    --blue-dark: #1c5bb8;
+    --blue-light: #4fa7ff;
     --nav-bg: rgba(245, 247, 251, 0.88);
     --nav-bg-scrolled: rgba(245, 247, 251, 0.97);
     --surface-hover-border: rgba(22, 30, 48, 0.16);
-    --timeline-line: rgba(59, 111, 230, 0.22);
-    --gold-border: rgba(177, 132, 0, 0.26);
-    --tag-border: rgba(59, 111, 230, 0.18);
-    --gold-gradient-end: #d7a717;
+    --timeline-line: rgba(47, 127, 224, 0.24);
+    --gold-border: rgba(31, 103, 199, 0.28);
+    --tag-border: rgba(47, 127, 224, 0.2);
+    --gold-gradient-end: #6cb9ff;
     --btn-primary-text: #ffffff;
   }
 }
@@ -297,11 +299,11 @@ img {
   max-width: var(--hero-figure-max-width);
   aspect-ratio: 920 / 520;
   background-color: var(--accent);
-  -webkit-mask-image: url("/assets/img/euler-identity-bg-unitcircle10.svg?v=20260411a");
+  -webkit-mask-image: url("/assets/img/euler-identity-bg-unitcircle10.svg?v=20260416a");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: top right;
   -webkit-mask-size: contain;
-  mask-image: url("/assets/img/euler-identity-bg-unitcircle10.svg?v=20260411a");
+  mask-image: url("/assets/img/euler-identity-bg-unitcircle10.svg?v=20260416a");
   mask-repeat: no-repeat;
   mask-position: top right;
   mask-size: contain;
